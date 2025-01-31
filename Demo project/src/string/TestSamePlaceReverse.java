@@ -2,9 +2,9 @@ package string;
 
 public class TestSamePlaceReverse {
 
-public static void main(String[] args) {
+   //public  static void main(String[] args) {
 		
-		
+	public static void  yusufkhan()   {
 		String name = "vijay dinanath chouhan";
 		
 		String []arr = name.split(" ");// { "vijay", "dinanath", "chouhan" };

@@ -4,9 +4,9 @@ public class TestFindNumber {
 	
 	
 	
-	//public static void main(String[] args) {
+	public static void main(String[] args) {
 
-		public void name() {
+		
 		  int array[] = {2, 3,8,9,19,32,};
 		  
 		  
@@ -29,7 +29,7 @@ public class TestFindNumber {
 				}	
 	   } 		
 					
-	}			
+}		
 					
 					
 				

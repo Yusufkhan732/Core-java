@@ -3,9 +3,8 @@ package array;
 public class TestArrayMax {
 
 	
-	//public static void main(String[] args) {
+	public static void main(String[] args) {
 		
-		public void name () {
 		int arr[] = {23, 76,89,65,34,12,};
 		
 	int	max = 0;
