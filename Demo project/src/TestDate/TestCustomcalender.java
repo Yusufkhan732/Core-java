@@ -14,7 +14,7 @@ import java.util.Date;
 public class TestCustomcalender {
 //	
 //	
-	//public static void main(String[] args) throws ParseException {
+	// public static void main(String[] args) throws ParseException {
 //		
 //		
 //		SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyy");
@@ -34,23 +34,20 @@ public class TestCustomcalender {
 //		 
 //	}
 	public static void main(String[] args) throws ParseException {
-		
+
 		SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyy");
-		
+
 		String str = "01.01.23";
-		
+
 		Date date = sdf.parse(str);
-		
-		
-		
+
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(date);
-		
+
 		Date nextEvent = cal.getTime();
-		
+
 		System.out.println(sdf.format(nextEvent));
-		
-	}
-	
 
 	}
+
+}

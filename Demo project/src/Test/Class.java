@@ -8,6 +8,7 @@ public class Class {
 		MyClass m = new MyClass();
 		
 		m.details(20,"yusyf");
+	
 		
 		
 	

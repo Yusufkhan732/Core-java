@@ -15,8 +15,8 @@ public class TestStringToDate {
 		SimpleDateFormat sdf = new SimpleDateFormat("ddd/MM/yyy");
 		
 		
-		Date d = sdf.parse(str);
+		String d = sdf.format(sdf);
 		
-		System.out.println(d);
+		System.out.println(str);
 	}
 }

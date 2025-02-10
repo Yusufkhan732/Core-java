@@ -17,6 +17,8 @@ public class PersonCal {
 		System.out.println(p.getAddress());
 
 		System.out.println(p.AVG_AGE);
+		
+	
 
 	}
 
