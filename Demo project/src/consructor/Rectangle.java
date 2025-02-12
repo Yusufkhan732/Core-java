@@ -1,6 +1,7 @@
-package shapearray;
+package consructor;
 
-public class Rectangle extends Shape {
+public class Rectangle {
+
 	private int Length;
 	private int Width;
 
@@ -9,8 +10,10 @@ public class Rectangle extends Shape {
 	}
 
 	public Rectangle(int Length, int Width) {
+		System.out.println("1 param Const");
 		this.Length = Length;
 		this.Width = Width;
+
 	}
 
 	public int getLength() {
@@ -30,8 +33,7 @@ public class Rectangle extends Shape {
 	}
 
 	public void Area() {
-		int area = Length * Width;
-		System.out.println("Rectanglr Area" + area);
+		double area = Length * Width;
+		System.out.println("Rectangle Area" + area);
 	}
-
 }

@@ -1,4 +1,4 @@
-package inheritence;
+package inheritence.copy;
 
 public class TestShapeTypeCasting {
 	public static void main(String[] args) {
