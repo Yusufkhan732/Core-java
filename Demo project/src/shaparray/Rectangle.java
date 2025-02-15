@@ -1,17 +1,15 @@
-package consructor;
+package shaparray;
 
-public class Rectangle {
+public class Rectangle extends Shape {
 
 	private int Length;
 	private int Width;
 
 	public Rectangle() {
-		System.out.println("default const");
 
 	}
 
 	public Rectangle(int Length, int Width) {
-		System.out.println("1 param Const");
 		this.Length = Length;
 		this.Width = Width;
 
@@ -34,7 +32,8 @@ public class Rectangle {
 	}
 
 	public void Area() {
-		double area = Length * Width;
+		int area = Length * Width;
 		System.out.println("Rectangle Area" + area);
 	}
+
 }

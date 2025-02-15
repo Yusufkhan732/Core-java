@@ -10,7 +10,7 @@ public class TriangleCal {
 		System.out.println(t1.getBase());
 		System.out.println(t1.getHight());
 		
-		Triangle t2 = new Triangle();
+		Triangle t2 = new Triangle(4,8);
 		t2.setBase(10);
 		System.out.println(t2.getBase());
 		t2.setHight(20);

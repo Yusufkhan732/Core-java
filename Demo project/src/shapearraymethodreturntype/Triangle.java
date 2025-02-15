@@ -26,6 +26,5 @@ public class Triangle extends Shape {
 		double tArea = (base * height) / 2;
 		System.out.println("Triangle Area: " + tArea);
 	}
+
 }
-
-

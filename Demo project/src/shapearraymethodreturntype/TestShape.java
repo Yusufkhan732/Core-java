@@ -5,11 +5,9 @@ public class TestShape {
 
 		Shape[] shape = new Shape[3];
 
-		shape[0] = Shape.getShape(1); // new Rectangle();
-
-		shape[1] = Shape.getShape(2); // new Circle();
-
-		shape[2] = Shape.getShape(3); // new Triangle();
+		shape[0] = Shape.getShape(1); // New Rectangle();
+		shape[1] = Shape.getShape(2); // New Circle();
+		shape[2] = Shape.getShape(3); // New Triangle();
 
 		Rectangle r = (Rectangle) shape[0];
 		r.setLength(10);
@@ -19,11 +17,13 @@ public class TestShape {
 		c.setRadius(10);
 
 		Triangle t = (Triangle) shape[2];
-		t.setBase(20);
-		t.setHeight(10);
-
+		t.setBase(10);
+		t.setHeight(20);
 		for (int i = 0; i < shape.length; i++) {
 			shape[i].area();
+
 		}
+
 	}
+
 }

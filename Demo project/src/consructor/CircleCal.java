@@ -5,7 +5,7 @@ public class CircleCal {
 		
 		
 		Circle c = new Circle();
-		Circle c1 = new Circle();
+		Circle c1 = new Circle(5);
 		c1.setRadius(5);
 		System.out.println(c1.getRadius());
 		c1.Area();

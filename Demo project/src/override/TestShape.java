@@ -6,8 +6,8 @@ public class TestShape {
 
 		ClassShape cs = new ClassShape();
 		cs.area();
-		
-          ClassShape s1 = new Rectangle();
-          s1.area();
+
+		ClassShape s1 = new Rectangle();
+		s1.area();
 	}
 }

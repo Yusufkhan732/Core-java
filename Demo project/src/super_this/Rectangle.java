@@ -1,7 +1,7 @@
 package super_this;
 
 public class Rectangle extends Shape {
-	// parents ke constructor ko call karne ke liye super keyword ka use kiys jata
+	// parents ke constructor ke call karne ke liye super keyword ka use kiya jata
 	// hai child class mein
 
 	private int length;

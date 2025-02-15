@@ -1,7 +1,8 @@
 package packagecom.rays.expl;
 
 public class A {
-	// child class me parent ke const call karne ke liye super keyword ka istemal
+	// child class me parent ke constructor ko call karne ke liye super keyword ka
+	// istemal
 	// karte hai
 	// explicit constautor calling
 
