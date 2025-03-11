@@ -21,5 +21,4 @@ public class TestDeep {
 		System.out.println(s1.Rollno);
 
 	}
-
 }

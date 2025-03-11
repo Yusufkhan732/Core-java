@@ -8,7 +8,7 @@ public class Test_Employee {
 
 	public static void main(String[] args) {
 
-		List list = new ArrayList();
+		List<Employee> list = new ArrayList<Employee>();
 
 		list.add(new Employee(6, " anita ", 200));
 		list.add(new Employee(2, " pushpa", 300));

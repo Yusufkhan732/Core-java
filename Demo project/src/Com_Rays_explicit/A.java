@@ -6,8 +6,9 @@ public class A {
 	// karte hai
 	// explicit constautor calling
 
-	public A() {
-		System.out.println(" a default constructor");
+	public A(int a) {
+
+		System.out.println("A 1 param constructor");
 
 	}
 

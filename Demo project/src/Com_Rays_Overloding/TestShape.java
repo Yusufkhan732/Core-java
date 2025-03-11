@@ -9,5 +9,6 @@ public class TestShape {
 		s.area();
 
 		s.area(10, 20);
+		s.area("anas", 5);
 	}
 }

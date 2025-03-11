@@ -12,4 +12,12 @@ public class Shape {
 		System.out.println("shape area method: " + area);
 
 	}
+
+	public void area(String name, int count) {
+		for (int i = 0; i < count; i++) {
+			System.out.println("Hello " + name + " good morning");
+
+		}
+
+	}
 }

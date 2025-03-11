@@ -32,12 +32,19 @@ public class Employe {
 
 	@Override
 	public boolean equals(Object obj) {
+		System.out.println("Equals");
+
+		if (!(obj instanceof Employe)) {
+			return false;
+
+		}
 		Employe emp = (Employe) obj;
 		return this.id == emp.id && this.name == emp.name && this.salary == emp.salary;
 	}
 
 	@Override
 	public int hashCode() {
+		System.out.println("Hascode");
 		String str = id + " " + name + " " + salary;
 		return str.hashCode();
 	}

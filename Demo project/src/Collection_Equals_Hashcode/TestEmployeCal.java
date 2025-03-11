@@ -19,18 +19,17 @@ public class TestEmployeCal {
 		System.out.println(e1.hashCode());
 		System.out.println(e2.hashCode());
 
-		Set set = new HashSet();
+		Set<Employe> set = new HashSet<Employe>();
 
 		set.add(e1);
 		set.add(e2);
 
 		System.out.println("set" + set);
 
-		List list = new ArrayList();
+		List<Employe> list = new ArrayList<Employe>();
 		list.add(e1);
 		list.add(e2);
 		System.out.println("list " + list);
 		System.out.println("list  " + list.remove(new Employe(1, "anas", 200)));
 	}
-
 }
